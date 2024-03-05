@@ -1,0 +1,14 @@
+.spiner{
+    background-color: rgb(249, 240, 240);
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 25px solid rgb(10, 219, 48);
+    border-top: 20px solid rgb(246, 242, 242);
+    animation: spiner 2s linear infinite;
+}
+@keyframes spiner{
+    to{
+        transform:rotate(360deg)
+    }
+}
